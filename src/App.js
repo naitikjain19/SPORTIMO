@@ -15,13 +15,18 @@ import Login from './screens/Login';
 import Register from './screens/Register';
 import Home from './screens/Home';
 import  ProtectedRoute  from './components/ProctectedRoute';
+import SideBar from './components/SideBar';
+import ThemeButton from './components/ThemeButton';
+import BottomTab from './components/BottomTab';
 
 function App() {
   const [isAuthenticated,setAuthenticated] = useState(true)
   return (
     <Router>
-    <div style={{marginTop:70}}  className="w-screen-98 h-screen">
-      <Navbar isAuthenticated={isAuthenticated} setAuthenticated={setAuthenticated} />
+    <div   className="md:ml-14 w-screen-98 h-screen">
+      <ThemeButton/>
+      <BottomTab isAuthenticated={isAuthenticated} setAuthenticated={setAuthenticated} />
+      <SideBar isAuthenticated={isAuthenticated} setAuthenticated={setAuthenticated} />
       <Switch>
         <Route path="/contact">
           <Contact />
@@ -35,6 +40,9 @@ function App() {
         </Route>
         <Route path="/register">
           <Register />
+        </Route>
+        <Route path="/logout">
+          <Redirect to="login" />
         </Route>
         <Route path="/home">
           <Home />

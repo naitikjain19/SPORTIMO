@@ -22,3 +22,11 @@
 .w-screen-98{
   width:97vw;
 }
+
+.behind{
+  z-index: -10;
+}
+          
+.sidebar:hover > .title{
+  opacity: 1;
+}

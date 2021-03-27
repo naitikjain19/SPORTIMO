@@ -4,7 +4,7 @@ function TournamentCard({ tournamentName, sportName, venue, date, price }) {
 
     return (
 
-        <div class="w-full max-w-xl overflow-hidden rounded border bg-color0 shadow transform transition duration-500 hover:scale-110 hover:shadow-xl mx-4 mb-8">
+        <div class="w-full max-w-xl overflow-hidden rounded border bg-color0 shadow transform transition duration-500 hover:scale-105 hover:shadow-xl mx-4 mb-8">
             <div class="relative">
                 <div class="h-56 w-full bg-cover bg-no-repeat bg-center card-bg">
                 </div>
