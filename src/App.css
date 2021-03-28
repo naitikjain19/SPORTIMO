@@ -4,19 +4,28 @@
   --color2: #b2becd;
   --color3: #6c7983;
   --color4: #454e56;
-  --color5: #2a2e35;
+  --color5: #3379f3;
   --color6: #12181b;
 }
 
 .light{
-  --color0: #e74b4b;
   --color2: #b2becd;
   --color3: #6c7983;
-  --color4: #0e497c;
+  --color4: #05192b;
 }
 
-.card-bg{
-  background-image: url("https://picsum.photos/400/400");
+
+.card-foot{
+  background-image: url("./assets/football.jpeg");
+}
+.card-sports{
+  background-image: url("./assets/sports.jpeg");
+}
+.card-cricket{
+  background-image: url("./assets/cricket.jpeg");
+}
+.card-tennis{
+  background-image: url("./assets/tennis.jpeg");
 }
 
 .w-screen-98{
@@ -29,4 +38,12 @@
           
 .sidebar:hover > .title{
   opacity: 1;
+}
+.load-transition{
+  animation: load 1000ms linear;
+}
+
+@keyframes load {
+  0% {opacity: 0;}
+  80% ,100% {opacity: 1;}
 }
