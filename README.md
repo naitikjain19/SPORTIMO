@@ -21,5 +21,5 @@ Screenshots:
 
 ![Image](/Screenshot/screen5.jpeg)
 
-![image](https://user-images.githubusercontent.com/60510325/159938321-b2da10d9-9658-4c94-99b6-ca3cdc7dc80d.png)
+![Image](https://user-images.githubusercontent.com/60510325/159938321-b2da10d9-9658-4c94-99b6-ca3cdc7dc80d.png)
 
